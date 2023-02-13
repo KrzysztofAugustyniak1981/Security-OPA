@@ -4,6 +4,8 @@ body {
   /*for erase*/
   background-color: black;
   color: white;
+  text-align: center;
+  font-size: large;
 }
 
 header {
@@ -114,4 +116,34 @@ input[type="submit"]:hover {
   text-align: center;
   padding: 45px 0;
   color: red;
+}
+
+
+@media only screen and (max-width: 416px) {
+  body {
+    width: 100%;
+    margin-top: 0px;
+  }
+  header {
+    font-size: 36px;
+    max-width: 100%;
+    padding: 0px;
+    height: 268px;
+  }
+  #navbar {
+    max-width: 358px;
+  }
+  #navbar a {
+    padding: 0px;
+    font-size: 16px;
+  }
+  .Offer {
+    max-width: 100%;
+    padding: 0px;
+  }
+  .Offer ul {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+  }
 }
